@@ -19,5 +19,5 @@ git clone https://github.com/asasec/Asasec-Script-Encoder.git
 cd "Asasec-Script-Encoder/@asasec-shc-2.13/termux and kali linux"
 
 #Başlat ve kurulsun kurulduktan sonra @asasec-shc ile gir
-chmod +x @asasec-shc~make && bash @asasec-shc~make
+chmod +x @asasec-shc~make && ./@asasec-shc~make
 ```
