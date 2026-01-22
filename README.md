@@ -5,22 +5,19 @@ Asasec Script Encoder Only Termux Linux
 ## Installing <img width="2.5%" src="https://raw.githubusercontent.com/mishakorzik/mishakorzik.menu.io/master/img/other/download.svg"/>
 
 ```
-#Upgrade all & full packages
-apt update
-apt upgrade
+#Bütün kütüphaneleri güncelle
+apt update -y
+apt upgrade -y
 
-#Add your termux permision
-termux-setup-storage
-
-#Install package git
+#Git paketini yükle
 apt install git
 
-#clone this repository
+#Çalışmamı clonla
 git clone https://github.com/mishakorzik/AllHackingTools
 
-#cd to directory allhackingtools
-cd AllHackingTools
+#Konumunu script encodera yönlendir
+cd @asasec-shc-2.13
 
-#Start script to install system
-bash Install.sh
+#Başlat ve kurulsun kurulduktan sonra @asasec-shc ile gir
+chmod +x @asasec-make~shc && bash @asasec-make~shc
 ```
