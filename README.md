@@ -13,10 +13,10 @@ apt upgrade -y
 apt install git
 
 #Çalışmamı clonla
-git clone https://github.com/mishakorzik/AllHackingTools
+git clone https://github.com/asasec/Asasec-Script-Encoder.git
 
 #Konumunu script encodera yönlendir
-cd @asasec-shc-2.13
+cd Asasec-Script-Encoder/@asasec-shc-2.13/termux and kali linux
 
 #Başlat ve kurulsun kurulduktan sonra @asasec-shc ile gir
 chmod +x @asasec-make~shc && bash @asasec-make~shc
